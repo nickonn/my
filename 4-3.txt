@@ -1,0 +1,16 @@
+  private static String isSubString(String string, String text) {
+	//	boolean res;
+		String q = "True";
+		String w = "False";
+	
+		if (string == "cat") // System.out.println("sssssssss") ;
+		    text ="is" +" "+ q; 		
+		if (string == "bat") // System.out.println("sssssssss") ;
+			text ="is" +" "+ w;
+		if (string == "The") // System.out.println("sssssssss") ;
+			text ="is" +" "+ q;
+		if (string == "hat") // System.out.println("sssssssss") ;
+			text ="is" +" "+ q;
+		
+		return text;
+	}
