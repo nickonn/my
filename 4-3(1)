@@ -1,0 +1,30 @@
+ private static String isSubString(String string, String text) {
+    	//boolean res;
+	
+       String SubStr1 = new String("cat");
+       String SubStr2 = new String("bat");
+       String SubStr3 = new String("The");
+       String SubStr4 = new String("hat");
+        
+         if (1 == SubStr1.indexOf('c'))
+        	 text = "TrueA";
+         else
+        	 text="FasleA";
+         if (1 == SubStr2.indexOf('b'))
+             text = "TrueB";
+    //     else
+   //     	 text = "FalseB";
+         if (1 == SubStr3.indexOf('T'))
+             text = "FalseT";  
+   //      else
+   //     	 text = "TrueT";
+         if (1 == SubStr4.indexOf('h'))
+             text = "TrueH";
+  //       else
+     //   	 text = "FalseH";
+       		// System.out.println(string.indexOf('c')); 
+        // System.out.print("a: ");
+         //System.out.println(string.indexOf('a'));
+    	    	
+		return text;
+	}
