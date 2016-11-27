@@ -1,0 +1,35 @@
+private static String isSubString(String string, String text) {
+		// TODO Auto-generated method stub
+		int c=string.indexOf('c'); 
+		int b=string.indexOf('b'); 
+		int T=string.indexOf('T'); 
+		int h=string.indexOf('h'); 
+		
+		if (0 == c)
+        	 text = "TrueA"; 
+         else
+        	 text="FasleA";  
+		
+		 
+         if (0 == b)
+             text = "TrueB";
+         else
+        	 text = "FalseB";
+        
+         
+         if (0 == T)
+             text = "FalseT";  
+         else
+        	 text = "TrueT";
+        
+         
+         if (0 == h)
+             text = "TrueH";
+         else
+        	 text = "FalseH";
+        
+       		// System.out.println(string.indexOf('c')); 
+        // System.out.print("a: ");
+         //System.out.println(string.indexOf('a'));
+        return text;    	
+	}
