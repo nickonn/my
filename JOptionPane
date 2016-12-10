@@ -1,0 +1,23 @@
+package test;
+import java.awt.Component;
+
+import javax.swing.*;
+
+public class test {
+
+	public static void main(String[] args) {
+	
+		String fn = JOptionPane.showInputDialog("Первы");
+		String sn = JOptionPane.showInputDialog("Первы");
+		
+		
+		int f = Integer.parseInt(fn);
+		int s = Integer.parseInt(sn);
+		
+		int sum = f+s;
+		
+		JOptionPane.showMessageDialog(null,"=" +sum,"Имя", JOptionPane.PLAIN_MESSAGE);
+		
+	}
+
+}
